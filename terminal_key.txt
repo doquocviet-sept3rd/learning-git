@@ -1,0 +1,78 @@
+ctrl + l = clear terminal 
+git config --global user.name "doquocviet" = rename global
+git config --global user.email "doquocviet.sept3rd@gmail.com" = set email address global
+git config --global color.ui auto = auto color
+git config --l = list info about git
+mkdir abc = create new folder abc
+git init . = init git
+git status = status of git
+git rm --cached index.html = remove cached sau khi đã add (kiểu như ctrl z sau khi git add index.html)
+git rm -r --cached . = remove all cached
+git add -A = thêm tất cả file vô cached (bất kể đang đứng ở thư mục con)
+git log = xem log của git như commit hash
+git show 214ad6ae8a07878e6c2bcae5986f3bf48539fe3e (commit hash) = xem lại thông tin commit bằng hash
+vi abc.js = edit file -> thoát = Esc + :wq
+cat index.js = view file trên terminal lun chớ không phải mở dạng vi
+git diff = xem sự khác nhau (different)
+git restore = hủy bỏ các sự modified file mà chưa commit hoặc add
+git commit --amend -m "msg" = thay đổi msg của lệnh git vừa commit trước đó
+git remote add origin https://github.com/doquocviet-sept3rd/learning-git.git = đẩy proj lên github
+git branch = xem nhánh đg sử dụng
+git branch -M main = đổi từ nhánh khác sang main
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGnN+jBTpYK+lxidr2Y4mGhtgZS3biqch9RY3cZEyaHW doquocviet.sept3rd@gmail.com
+cd .. = quay lại thư mục trước
+git branch -a = xem tất cả branch hiện có
+git branch abc = tạo new branch abc
+git checkout abc = chuyển qua branch abc
+git checkout - = chuyển qua branch trước đó
+git checkout -b abc = tạo new branch abc và checkout qua đó lun
+git branch -D abc = delete branch abc (git branch -d abc)
+git log --oneline = xem log mà theo từng dòng
+master == main
+[workflow]
+	Đầu tiên, pull từ server về local trước
+	Sau đó, làm add, commit...
+	
+git merge abc = merge abc vô nhánh chính (hoặc hiện tại)
+giải quyết xung đột thì đầu tiên là pull về, sau đó edit, sau đó push lên lại
+rebase chưa hiểu lắm :((
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
